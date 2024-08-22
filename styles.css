@@ -1,0 +1,215 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c; /* Initial background color */
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s ease; /* Smooth background color transition */
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    color: #f4f4f4;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+header .logo-img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
+header .logo-s {
+    font-size: 4rem;
+    color: #f1c40f;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+}
+
+header .logo-farouk {
+    font-size: 2rem;
+    color: #f1c40f;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+    color: #f1c40f;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f1c40f;
+    border-bottom: 2px solid #f1c40f;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+#skills ul li {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#projects .project {
+    background-color: #444;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#projects .project h3 {
+    margin-top: 0;
+    color: #f1c40f;
+}
+
+#projects .project a {
+    color: #f1c40f;
+    text-decoration: none;
+}
+
+#projects .project a:hover {
+    text-decoration: underline;
+}
+
+#links ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+#links ul li {
+    display: flex;
+    align-items: center;
+}
+
+#links ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#links ul li a i {
+    margin-right: 10px;
+}
+
+#links ul li a:hover {
+    color: #f1c40f;
+}
+
+.profile-photo {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%; /* Makes the photo circular */
+    display: block;
+    margin: 20px auto;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+#contact-form button {
+    background-color: #f1c40f; /* Yellow color */
+    color: #1c1c1c;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth transition for button color */
+}
+
+#contact-form button:hover {
+    background-color: #d4ac0d; /* Darker yellow */
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #f4f4f4;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
